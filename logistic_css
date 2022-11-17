@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav_bar{
+    height: 15%;
+    display: flex;
+    align-items:stretch;
+}
+.text-align{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(196, 188, 188, 0.8),rgba(0,0,0,0.8));
+    background-position: center;
+    background-size:cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.rapidrunlogo{
+    width: 200px;
+    cursor: pointer;
+
+    
+}
+.sidemenu{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    block-size: 40px 20px;
+    margin-left: 50px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(109, 72, 2);
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: rgb(69, 20, 20);
+    
+
+}
+nav ul li a:hover{
+    transition: transform 0.7s;
+    color: rgb(244, 238, 230);
+    border: 2px;
+    box-sizing: border-box;
+    
+}
+.fa{
+    margin-right: 10px;
+}
+.fa-user{
+    margin-right: 7px;
+}
+.fa-house-chimney-user{
+    margin-right: 5px;
+}
+.fa-users{
+    margin-right: 5px;
+}
+.row{
+    display: flex;
+    height: 65%;
+    align-items: center;
+}
+.column{
+    flex-basis: 50%;
+}
+.column p{
+    margin-top: 10px;
+}
+
+h1{
+    color: rgb(124, 88, 3);
+    font-size: 60px
+}
+p{
+   color: rgb(12, 12, 11);
+   font-size: 18px;
+   line-height: 20px;
+}
+button{
+    width: 250px;
+    color:rgb(79, 4, 4);
+    font-size: 20px;
+    padding:20px 10px;
+    background: white;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+button:hover{
+    color:rgb(226, 224, 222);
+    background-color: rgb(246, 167, 64);
+    transition: transform 0.4s;
+}
+.cradview{
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    padding:15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 13px;
+    transition: transform 0.3s;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image:url(/flatbed.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+.card2{
+    background-image:url(/refeer.jpg);
+}
+.card3{
+    background-image:url(/truck2.jpg);
+}
+.card4{
+    background-image:url(/truckingpic.jpg);
+}
+.cradview:hover{
+    transform: translateY(-15px);
+}
+h4,p{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+.card1 p{
+    font-size: 12px;
+}
+.card2 p{
+    font-size: 12px;
+}
+.card3 p{
+    font-size: 12px;
+}
+.card4 p{
+    font-size: 12px;
+}
+.team1{
+    
+    display: none;
+     
+   
+}
+
+
+nav ul li:hover .team1{
+    display: block;
+    position: absolute;
+    background:#695004;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+
+    
+
+    
+}
+nav ul li:hover .team1 ul {
+    display: block;
+    margin: 10px;
+   
+
+    
+    
+
+}
+nav ul li:hover .team1 ul li {
+    width: 80px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 2px;
+    text-align:center;
+
+    
+}
+
